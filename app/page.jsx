@@ -18,9 +18,8 @@ const PROJECTS = [
     impact: "Turned hours of manual pricing into minutes; more consistent bids & margins",
     img: "/projects/tech-liquidators.png",
     links: {
-      repo: "https://github.com/ayaan-yourrepo/tech-liquidators",
-      demo: "https://your-demo-link.example",
-      writeup: "https://your-blog-or-notion.example/tech-liquidators",
+      repo: "https://github.com/ayaanzahmad/tech-liquidators",
+      demo: "Coming Soon",
     },
     tags: ["Data Pipeline", "ETL", "Analytics"],
   },
@@ -39,8 +38,7 @@ const PROJECTS = [
     img: "/projects/youtube-pipeline.png",
     links: {
       repo: "https://github.com/ayaan-yourrepo/youtube-shorts",
-      demo: "https://your-demo-link.example",
-      writeup: "https://your-notion.example/youtube-pipeline",
+      demo: "Coming Soon",
     },
     tags: ["Automation", "APIs", "Media"],
   },
@@ -59,8 +57,7 @@ const PROJECTS = [
     img: "/projects/masjid-app.png",
     links: {
       repo: "https://github.com/ayaan-yourrepo/masjid-app",
-      demo: "https://your-demo-link.example",
-      writeup: "https://your-notion.example/masjid-app",
+      demo: "Coming Soon",
     },
     tags: ["Mobile", "Geo", "Community"],
   },
@@ -79,8 +76,8 @@ const PROJECTS = [
     img: "/projects/veyra.png",
     links: {
       repo: "https://github.com/ayaan-yourrepo/veyra",
-      demo: "https://your-demo-link.example",
-      writeup: "https://your-notion.example/veyra",
+      demo: "coming soon",
+      
     },
     tags: ["AI", "Computer Vision", "Product"],
   },
@@ -99,8 +96,8 @@ const PROJECTS = [
     img: "/projects/paths.png",
     links: {
       repo: "https://github.com/ayaan-yourrepo/paths",
-      demo: "https://your-demo-link.example",
-      writeup: "https://your-notion.example/paths",
+      demo: "coming soon",
+    
     },
     tags: ["EdTech", "AI", "Career"],
   },
