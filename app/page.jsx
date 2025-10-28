@@ -10,7 +10,7 @@ const PROJECTS = [
       "ETL + Pricing Intelligence: ingest manifests → enrich via APIs → compute ROI + recommended max bid",
     bullets: [
       "Ingest CSV/XLSX manifests; normalize UPC/SKU/qty/condition",
-      "Enrich with UPCItemDB + 90-day eBay sold comps (IQR-trim outliers)",
+      "Enrich with UPCItemDB + 90‑day eBay sold comps (IQR‑trim outliers)",
       "Fees/shipping/defect knobs → net resale → Recommended Max Bid",
       "Sortable dashboard + CSV export; caching + retry for flaky APIs",
     ],
@@ -18,8 +18,9 @@ const PROJECTS = [
     impact: "Turned hours of manual pricing into minutes; more consistent bids & margins",
     img: "/projects/tech-liquidators.png",
     links: {
-      repo: "https://github.com/ayaanzahmad/tech-liquidators",
-      demo: "Coming Soon",
+      repo: "https://github.com/ayaan-yourrepo/tech-liquidators",
+      demo: "https://your-demo-link.example",
+      writeup: "https://your-blog-or-notion.example/tech-liquidators",
     },
     tags: ["Data Pipeline", "ETL", "Analytics"],
   },
@@ -38,29 +39,12 @@ const PROJECTS = [
     img: "/projects/youtube-pipeline.png",
     links: {
       repo: "https://github.com/ayaan-yourrepo/youtube-shorts",
-      demo: "Coming Soon",
+      demo: "https://your-demo-link.example",
+      writeup: "https://your-notion.example/youtube-pipeline",
     },
     tags: ["Automation", "APIs", "Media"],
   },
-  {
-    id: "masjid-app",
-    title: "Masjid App (Community Events & Prayer Times)",
-    subtitle:
-      "Local discovery: mosques near you, programs, sports runs, room booking, notifications",
-    bullets: [
-      "Geo search + activity feed; age-range event notifications",
-      "Basic organizer dashboard; RSVPs and interest signals",
-      "Future: social graph + 'who's going' visibility",
-    ],
-    tech: ["Flutter/React Native", "Supabase/Firebase", "Maps API"],
-    impact: "Activates under-served communities with a lightweight, modern UX",
-    img: "/projects/masjid-app.png",
-    links: {
-      repo: "https://github.com/ayaan-yourrepo/masjid-app",
-      demo: "Coming Soon",
-    },
-    tags: ["Mobile", "Geo", "Community"],
-  },
+  
   {
     id: "veyra",
     title: "Veyra — AI Wardrobe & Styling Assistant",
@@ -76,33 +60,12 @@ const PROJECTS = [
     img: "/projects/veyra.png",
     links: {
       repo: "https://github.com/ayaan-yourrepo/veyra",
-      demo: "coming soon",
-      
+      demo: "https://your-demo-link.example",
+      writeup: "https://your-notion.example/veyra",
     },
     tags: ["AI", "Computer Vision", "Product"],
-  },
-  {
-    id: "paths",
-    title: "Paths — Skills→Role Mapping (Career Pivot Tool)",
-    subtitle:
-      "Enter skills/degree → get target roles, gaps, and 6‑week learning plan (YC-style MVP)",
-    bullets: [
-      "Role ontology + skill graph; gap analysis",
-      "Auto‑generate micro‑curricula and project prompts",
-      "Room for credential upload + verification",
-    ],
-    tech: ["Next.js", "Postgres", "LLM APIs", "Shadcn UI"],
-    impact: "Turns vague transitions into a concrete, stepwise path",
-    img: "/projects/paths.png",
-    links: {
-      repo: "https://github.com/ayaan-yourrepo/paths",
-      demo: "coming soon",
-    
-    },
-    tags: ["EdTech", "AI", "Career"],
-  },
+  }
 ];
-
 
 const SOCIALS = [
   { label: "Email", href: "mailto:ayaanzahmad@gmail.com" },
